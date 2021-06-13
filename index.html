@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ashraf's website </title>
+
+	<script type="text/javascript">
+		var music = new Audio('Songbird-clip.mp3');
+		var music2 = new Audio('Born-to-Roll-clip.mp3');	
+
+		function playMusic(){
+	  		music.play();
+	  	}
+
+	  	function pauseMusic(){
+	  		music.pause();
+	  	}
+
+	  	function playMusic2(){
+	  		music2.play();
+	  	}
+
+	  	function pauseMusic2(){
+	  		music2.pause();
+	  	}
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<h1>ashwebset </h1>
+
+	<p> Hello everyone, I am Ashraf, this is my first website </p>
+
+	<input type="button" style="background-color:yellow;" value="play songbird" onclick="playMusic()" />
+	<input type="button" style="background-color:yellow;" value="pause songbird" onclick="pauseMusic()" />
+
+	<br>
+	<br>
+
+<input type="button" style="background-color:#ff6699;" value="play Born-to-Roll-clip" onclick="playMusic2()" />
+<input type="button" style="background-color:green;" value="pause Born-to-Roll-clip "onclick="pauseMusic2()" />
+	<audio hidden="">
+	  <source src="Born-to-Roll-clip.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+
+		<audio  hidden="">
+	  <source src="Songbird-clip.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+
+
+	<p>
+		<img src="air.jpg" width="62%" height="62%">
+	</p>
+
+	<p>
+		<img src="air2.jpg" width="62%" height="62%">
+	</p>
+
+	<p>
+		<img src="air3.jpg" width="62%" height="62%">
+	</p>
+
+
+
+</html>
